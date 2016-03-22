@@ -1,0 +1,15 @@
+function lamda = svmTrain( samples, C )
+	P = length(samples);
+
+	[Q = getGramMatrix(samples);
+	
+	g = -ones(P, 1);
+	
+	'gram matrix'
+	
+	Q
+	
+	eigQ = eig(Q)
+	
+	lamda = quadprog(Q, g, [], [], [], [], zeros(P, 1), C/P*ones(P, 1));
+end
