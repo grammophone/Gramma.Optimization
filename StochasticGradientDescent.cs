@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gramma.Vectors;
-using Gramma.Optimization.DecayFunctions;
+using Grammophone.Vectors;
+using Grammophone.Optimization.DecayFunctions;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Diagnostics;
 using System.Collections.Concurrent;
 
-namespace Gramma.Optimization
+namespace Grammophone.Optimization
 {
 	/// <summary>
 	/// Implements a parallel version of the stochastic gradient descent algorithm.
@@ -112,7 +112,7 @@ namespace Gramma.Optimization
 		/// It is typical to have an infinite sequence in <paramref name="samples"/> to represent streaming on-line data.
 		/// When having off line data loaded in an array, the infinite sequence
 		/// can be produced by infinite random picking of array items as provided
-		/// by the Gramma.Linq project, using CollectionExtensions.RandomPickSequence extension methods.
+		/// by the Grammophone.Linq project, using CollectionExtensions.RandomPickSequence extension methods.
 		/// </remarks>
 		public static V ParallelMinimize<T, V>(
 			IEnumerable<T> samples,
@@ -206,7 +206,7 @@ namespace Gramma.Optimization
 		/// It is typical to have an infinite sequence in <paramref name="samples"/> to represent streaming on-line data.
 		/// When having off line data loaded in an array, the infinite sequence
 		/// can be produced by infinite random picking of array items as provided
-		/// by the Gramma.Linq project, using CollectionExtensions.RandomPickSequence extension methods.
+		/// by the Grammophone.Linq project, using CollectionExtensions.RandomPickSequence extension methods.
 		/// </remarks>
 		public static V ParallelMinimize<T, V>(
 			IEnumerable<T> samples,

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Optimization.DecayFunctions
+namespace Grammophone.Optimization.DecayFunctions
 {
 	/// <summary>
 	/// Implements the 1/sqrt(n) decay function.

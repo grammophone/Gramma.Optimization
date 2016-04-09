@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
-using Gramma.Vectors;
-using Gramma.Vectors.ExtraExtensions;
+using Grammophone.Vectors;
+using Grammophone.Vectors.ExtraExtensions;
 
-namespace Gramma.Optimization
+namespace Grammophone.Optimization
 {
 	/// <summary>
 	/// Contains methods for optimization using conjugate gradient algorithm variants.

@@ -8,8 +8,8 @@
     <ProjectGuid>{A86E4DEA-C3E5-44F9-8975-B15E21F0E03A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.Optimization</RootNamespace>
-    <AssemblyName>Gramma.Optimization</AssemblyName>
+    <RootNamespace>Grammophone.Optimization</RootNamespace>
+    <AssemblyName>Grammophone.Optimization</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Gramma.Optimization.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Grammophone.Optimization.xml</DocumentationFile>
     <NoWarn>1591, 0419</NoWarn>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <Prefer32Bit>false</Prefer32Bit>
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Gramma.Optimization.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Grammophone.Optimization.xml</DocumentationFile>
     <NoWarn>1591, 0419</NoWarn>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <Prefer32Bit>false</Prefer32Bit>
@@ -61,9 +61,9 @@
     <Compile Include="StochasticGradientDescent.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gramma.Vectors\Gramma.Vectors.csproj">
+    <ProjectReference Include="..\Grammophone.Vectors\Grammophone.Vectors.csproj">
       <Project>{039DA284-52B0-4E55-917E-92F0CD3C5AD9}</Project>
-      <Name>Gramma.Vectors</Name>
+      <Name>Grammophone.Vectors</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

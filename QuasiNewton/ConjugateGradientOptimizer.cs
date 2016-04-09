@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gramma.Vectors;
+using Grammophone.Vectors;
 
-namespace Gramma.Optimization.QuasiNewton
+namespace Grammophone.Optimization.QuasiNewton
 {
 	/// <summary>
 	/// Optimizer using the Conjugate Gradient method.

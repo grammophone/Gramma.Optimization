@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Gramma.Vectors;
+using Grammophone.Vectors;
 
-namespace Gramma.Optimization
+namespace Grammophone.Optimization
 {
 	/// <summary>
 	/// Function of vector returning a vector.
